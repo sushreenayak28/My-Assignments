@@ -1,0 +1,7 @@
+string="Good Morning"
+n=5
+if n<len(string):
+  new_string=string[n:]
+  print("Modified String:",new_string)
+else:
+  print("Invalid Input")
