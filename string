@@ -1,7 +1,8 @@
+#Enter a string and an integer. Remove characters from the string and return a new string
 string="Good Morning"
 n=5
 if n<len(string):
-  new_string=string[n:]
-  print("Modified String:",new_string)
+  new_str=string[n:]
+  print("Modified String:",new_str)
 else:
   print("Invalid Input")
