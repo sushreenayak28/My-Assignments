@@ -1,0 +1,5 @@
+#extract characters from a name and pass to python collection
+def extract(name):
+    return list(name)
+name= "ସ୍ୱେତା ମହାପାତ୍ର"
+print(extract(name))
