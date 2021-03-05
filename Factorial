@@ -1,0 +1,35 @@
+#Using For Loop
+"""num=int(input("Please Enter A Number:"))
+fact=1
+for i in range(0,num):
+    fact=fact*num
+    num=num-1
+print("The factorial of the number is:",fact)"""
+
+
+
+#Using While Loop
+"""n=int(input("Enter a number:"))
+if(n<0):
+    fact=0
+elif(n==0 or n==1):
+    fact=1
+else:
+    fact=1
+    while(n>1):
+        fact*=n
+        n-=1
+print("The factorial of the given number is:", fact)"""
+
+
+
+
+#Using Recursion Method
+
+def fact(n):
+    if n==1:
+     return 1
+    else:
+      return (n*fact(n-1))
+num=int(input("Please Enter A Number:"))
+print("The factorial of the ",num," is ",fact(num))
