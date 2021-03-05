@@ -3,3 +3,16 @@ def extract(name):
     return list(name)
 name= "ସ୍ୱେତା ମହାପାତ୍ର"
 print(extract(name))
+
+
+"""name= "ସ୍ୱେତା ମହାପାତ୍ର"
+name=list(name)
+print(name)"""
+
+
+name=input("Please enter a name:")
+nameList=[]
+for var in name:
+    nameList.append(var)
+print("String after converting to character array:",nameList)
+
