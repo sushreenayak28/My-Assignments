@@ -1,3 +1,4 @@
+"""
 a = 0
 b = 1
 n=int(input("Enter the number: "))
@@ -11,3 +12,20 @@ while(n-2):
     print(c)
     n=n-1
 print("Sum of the nth series is ",sum)
+"""
+
+num=int(input("Enter a number:"))
+def fibonacci(n):
+   if n <= 1:
+       return n
+   else:
+       return( fibonacci(n-1) + fibonacci(n-2))
+sum=0
+if num <= 0:
+   print("Invalid Input")
+else:
+   print("Fibonacci sequence:")
+   for i in range(num):
+       sum=sum+fibonacci(i)
+       print(fibonacci(i))
+print("The sum of nth sequence is ",sum)
