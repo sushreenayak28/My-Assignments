@@ -1,0 +1,5 @@
+arr=[3,13,18,35,6]
+sum=0
+for i in arr:
+    sum=sum+i
+print("Sum of the elements in the array is:",sum)
