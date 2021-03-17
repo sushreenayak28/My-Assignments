@@ -1,0 +1,6 @@
+arr=[3,13,18,35,6]
+large=arr[0]
+for i in arr:
+    if i>large:
+        large=i
+print("The largest number in the array is:",large)
